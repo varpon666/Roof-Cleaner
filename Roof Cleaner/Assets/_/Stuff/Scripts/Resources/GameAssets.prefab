@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1848020400031394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4660278464350348}
+  - component: {fileID: 114053222545026688}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4660278464350348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848020400031394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0506113, y: 11.127766, z: -0.30743352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114053222545026688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848020400031394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b803e20a4fd97b45be60489e2bf6f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_ShootFlash: {fileID: 21300000, guid: ea0c4f661967a46418c1f753f1174c16, type: 3}
+  pfSwordSlash: {fileID: 4449298464342230, guid: 462567ca14cd79e4cb487f6efed6ab29,
+    type: 3}
+  pfEnemy: {fileID: 4246798350079288, guid: f8c2c2216efde6240b4313f5fc702f55, type: 3}
+  pfEnemyFlyingBody: {fileID: 4749081688058082, guid: f2bda9adc6070fb4bb60f2d7835fa4e4,
+    type: 3}
+  pfImpactEffect: {fileID: 4232540825830159459, guid: 719648f9e37d4df428baf897aab977a7,
+    type: 3}
+  pfDamagePopup: {fileID: 2920174026715650587, guid: d5cbb6859cac94e41a282a83df2e600c,
+    type: 3}
+  pfDashEffect: {fileID: 4749125973432492, guid: f61a21468b226e640856e5bb8921ce12,
+    type: 3}
+  pfProjectileArrow: {fileID: 2002566737545797352, guid: 4ff0e96d4df51d347bfb2dfe3a80fe0e,
+    type: 3}
+  pfBolt: {fileID: 5483796936804933004, guid: 00a55c0be851e744eb9e717c3ebeac54, type: 3}
+  pfSmoke: {fileID: 4545124844763286182, guid: 16fecaa833025084b85518695aa4edba, type: 3}
+  pfChatBubble: {fileID: 3728437068038445425, guid: df73330eeb9b86841a6744d52470812a,
+    type: 3}
+  m_WeaponTracer: {fileID: 2100000, guid: f3f8a9e888e8f7d4d9a9b9c0271d0338, type: 2}
+  m_MarineSpriteSheet: {fileID: 2100000, guid: ab5acf6e79667694d9ceb91aca8abdc3, type: 2}
+  m_DoorRed: {fileID: 0}
+  m_DoorGreen: {fileID: 0}
+  m_DoorBlue: {fileID: 0}
+  m_DoorKeyHoleRed: {fileID: 0}
+  m_DoorKeyHoleGreen: {fileID: 0}
+  m_DoorKeyHoleBlue: {fileID: 0}
+  cinemachineDefaultNoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4,
+    type: 2}

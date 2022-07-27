@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fc267524cd4de4aa575df7e3c9b2a4, type: 3}
+  m_Name: DiamondSwordRecipe
+  m_EditorClassIdentifier: 
+  output: {fileID: 11400000, guid: a68cb22551728394385cafe99949e220, type: 2}
+  item_00: {fileID: 0}
+  item_10: {fileID: 11400000, guid: 972262a9221bbac468bea13638283225, type: 2}
+  item_20: {fileID: 0}
+  item_01: {fileID: 0}
+  item_11: {fileID: 11400000, guid: 42f75218c073de342bf9c30ecf66b574, type: 2}
+  item_21: {fileID: 0}
+  item_02: {fileID: 0}
+  item_12: {fileID: 11400000, guid: 42f75218c073de342bf9c30ecf66b574, type: 2}
+  item_22: {fileID: 0}

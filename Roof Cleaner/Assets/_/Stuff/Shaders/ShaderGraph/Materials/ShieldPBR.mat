@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShieldPBR
+  m_Shader: {fileID: -6465566751694194690, guid: 821805b44b1804f44ba26680f01c8b62,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_C11E6E28:
+        m_Texture: {fileID: 2800000, guid: 1dfd92251fe941f43834f029a0ced036, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: 4ed02ed532d396a4aafc0b00bffb800e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 925013874e11acc4aa2e19564b5eea6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1ee10e57e0da40a4397b6a00efe882ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_46FED0F1: 0
+    - Vector1_A85A622B: 0
+    - Vector1_BC64340C: 4
+    - _Alpha: 0.4
+    - _DissolveAmount: 0.33
+    - _GradientTileY: 5
+    - _OutlineThickness: 1
+    - _ShieldSpeed: 0.3
+    m_Colors:
+    - Color_4E3D2B70: {r: 0, g: 0, b: 0, a: 0}
+    - Color_CC44C6E4: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_85274708: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_B1951189: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_3356A5AB: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_BA3ADAD6: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 0, g: 2.211765, b: 4, a: 1}
+    - _EmissionColor: {r: 0.776431, g: 1.5972295, b: 2.1185474, a: 1}
+    - _GradientEmission: {r: 2, g: 2, b: 2, a: 1}
+    - _MainTexTiling: {r: 10, g: 5, b: 0, a: 0}
+    - _OutlineColor: {r: 0.27074933, g: 1, b: 0, a: 1}
+    - _Tint: {r: 0.1450982, g: 1, b: 0, a: 0}
